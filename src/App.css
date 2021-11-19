@@ -12,3 +12,40 @@
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
+
+.chat-bot-button {
+  padding: 1em;
+  border-radius: 50%;
+  height: 5.5em;
+  width: 5.5em;
+  cursor: pointer;
+  user-select: none;
+  background: url("./iconsChatbot.png");
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: bold;
+  transition: all 0.2s ease-out;
+}
+
+.chat-bot-button:hover {
+  box-shadow: 0 0 1em 0.1em rgb(0 0 0 / 30%);
+}
+
+.chat-bot-button-container{
+  margin-left: auto;
+}
+
+.chat-bot-wrapper {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  
+}
+
+.chat-bot-element {
+  transition: all 0.3s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
